@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* ========================================================== */
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    min-width: 1040px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ========================================================== */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1{
+    margin-left: 30px;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    color: #444444;
+}
+
+/* ========================================================== */
+
+.mainmenu {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+img {
+    width: 100px;
+}
+
+/* ========================================================== */
+
+.about_me {
+    background-color: #8CB8B2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .1s;
+}
+
+.about_me:hover {
+    transform: scale(1.1);
+}
+
+/* ================================== */
+
+.portfolio {
+    background-color: #8CB8B2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .1s;
+}
+
+.portfolio:hover {
+    transform: scale(1.1);
+}
+
+/* ================================== */
+
+.hobbies {
+    background-color: #8CB8B2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .1s;
+}
+
+.hobbies:hover {
+    transform: scale(1.1);
+}
+
+/* ================================== */
+
+.contact {
+    background-color: #8CB8B2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .1s;
+}
+
+.contact:hover {
+    transform: scale(1.1);
+}
+
+/* ========================================================== */
+
+.mainmenu_title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.mainmenu_title h2 {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    color: #444444;
+}
+
+/* ========================================================== */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.mainmenu_links {
+    /* background-color: #8CB8B2; */
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mainmenu_links img {
+    width: 60px;
+    /* background-color: aqua; */
+    
+}
